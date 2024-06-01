@@ -1,64 +1,25 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+Flow of the website:
+1. The admin should create an account using the register page.
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/d2841243-7fff-4e8c-994b-23b741c1a1ac)
+2. Login
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/bb4e4e32-2918-43d9-bf5c-8d0fad08e7ef)
+3. The admin should input the categories and national ID number data.
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/ab318709-996b-4c23-9303-1fc1c1e5463b)
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/3e7a3c7d-4ebe-4ae0-b146-4ffd19fab753)
+4. The user submit a report from the landing page by scrolling to the bottom of the page.
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/2bb732a2-f42a-4fb7-8225-a2ae2ea23333)
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/c3a12f5f-5f4a-480e-b053-17eeaeee2891)
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/48e6d086-d2ae-4ec2-85d0-43b6e9517cd4)
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/7e18d3f6-0b7d-434a-afc5-d5f2dee37dd5)
+5. The admin responds to the report that the user has submitted.
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/9338701e-894f-46bb-8a96-c18df823b098)
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/7866aa36-ef9f-4133-861b-45b826a0e832)
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/edcef1a6-2d56-472a-8184-e7a442b9b30e)
+6. The user can check the progress of their reports.
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/2b8b3abb-d1bc-4265-a6c9-fecde89f7034)
+7. The user provide feedback
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/2c387c8c-fa04-4170-8a45-1403907fbec1)
+8. The admin review the feedback given by the user.
+![image](https://github.com/StephenJo16/AyoLapor/assets/70307705/806d609f-ab14-47bd-b9a8-bd417ad0aff2)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
